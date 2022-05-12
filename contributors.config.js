@@ -1,33 +1,26 @@
 module.exports = {
-  basePath: '',
-  projectName: 'Chatwoot',
+  basePath: '/contributors-page',
+  projectName: 'RudderStack Contributors Page',
 
   siteMetadata: {
-    title: 'Chatwoot Contributors',
+    title: 'RudderStack Contributors Page',
   },
 
   pageTitle: 'We thank all our contributors',
   pageDescription:
-    'Chatwoot would not have been what it is today without the help of our amazing contributors.',
-  githubLink: 'https://github.com/chatwoot/chatwoot',
-  contributingGuide: 'https://www.chatwoot.com/docs/contributing-guide',
-  sponsorsLink: 'https://github.com/sponsors/chatwoot',
+    'RudderStack would not have been what it is today without the help of our amazing contributors.',
+  githubLink: 'https://github.com/rudderlabs',
+  contributingGuide: 'https://www.rudderstack.com/docs/user-guides/how-to-guides/how-to-submit-an-integration-pull-request/',
 
   github: {
-    org: 'chatwoot',
+    org: 'rudderlabs',
     repoNames: [
-      'charts',
-      'chatwoot-mobile-app',
-      'chatwoot-react-native-widget',
-      'chatwoot',
-      'cloudron-chatwoot',
-      'docs',
-      'gatsby-plugin-chatwoot',
-      'ios-sdk',
-      'node',
-      'twitty',
-      'utils',
-      'wp-plugin',
+      'rudder-server',
+      'rudder-transformer',
+      'rudder-sdk-js',
+      'rudder-sdk-android',
+      'rudder-sdk-ios',
+      'rudderstack-docs'
     ],
   },
 };
